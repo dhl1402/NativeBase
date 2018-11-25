@@ -1,4 +1,4 @@
-import { StyleProvider, connectStyle } from "native-base-shoutem-theme";
+import { StyleProvider, connectStyle, clearCache } from "native-base-shoutem-theme";
 import { keys } from "lodash";
 import { Col, Row, Grid } from "react-native-easy-grid";
 // import { Gravatar } from "./basic/Gravatar";
@@ -67,6 +67,7 @@ export {
   variables,
   StyleProvider,
   connectStyle,
+  clearCache,
   Drawer,
   Button,
   DatePicker,
